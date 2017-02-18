@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>881</width>
-    <height>651</height>
+    <height>583</height>
    </rect>
   </property>
   <property name="palette">
@@ -25,9 +25,9 @@
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>81</red>
-        <green>245</green>
-        <blue>245</blue>
+        <red>198</red>
+        <green>14</green>
+        <blue>47</blue>
        </color>
       </brush>
      </colorrole>
@@ -45,9 +45,9 @@
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>81</red>
-        <green>245</green>
-        <blue>245</blue>
+        <red>198</red>
+        <green>14</green>
+        <blue>47</blue>
        </color>
       </brush>
      </colorrole>
@@ -56,18 +56,18 @@
      <colorrole role="Base">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>81</red>
-        <green>245</green>
-        <blue>245</blue>
+        <red>198</red>
+        <green>14</green>
+        <blue>47</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>81</red>
-        <green>245</green>
-        <blue>245</blue>
+        <red>198</red>
+        <green>14</green>
+        <blue>47</blue>
        </color>
       </brush>
      </colorrole>
@@ -81,8 +81,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>20</y>
+      <x>340</x>
+      <y>30</y>
       <width>381</width>
       <height>201</height>
      </rect>
@@ -100,10 +100,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>240</y>
-      <width>171</width>
-      <height>161</height>
+      <x>380</x>
+      <y>330</y>
+      <width>111</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="text">
@@ -111,13 +111,26 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../image/welcom.jpg</normaloff>../image/welcom.jpg</iconset>
+      <normaloff>../image/final/pr2.jpg</normaloff>../image/final/pr2.jpg</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>170</width>
-      <height>170</height>
+      <width>150</width>
+      <height>150</height>
      </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>250</y>
+      <width>691</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; color:#ffffff;&quot;&gt;Please place your finger on the sensor to continue&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
