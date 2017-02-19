@@ -111,7 +111,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../image/final/pr2.jpg</normaloff>../image/final/pr2.jpg</iconset>
+      <normaloff>../image/pr2.jpg</normaloff>../image/pr2.jpg</iconset>
     </property>
     <property name="iconSize">
      <size>
