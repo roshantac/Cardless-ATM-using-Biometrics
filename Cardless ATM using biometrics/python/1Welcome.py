@@ -83,7 +83,7 @@ class Ui_WelcomeWindow(object):
 
     def retranslateUi(self, WelcomeWindow):
         WelcomeWindow.setWindowTitle(_translate("WelcomeWindow", "WelcomeWindow", None))
-        self.label.setText(_translate("WelcomeWindow", "<html><head/><body><p><span style=\" font-size:72pt; color:#ffffff;\">Hello.</span></p></body></html>", None))
+        self.label.setText(_translate("WelcomeWindow", "<html><head/><body><p><span style=\" font-size:72pt; color:#ffffff;\">Hello</span></p></body></html>", None))
         self.label_2.setText(_translate("WelcomeWindow", "<html><head/><body><p><span style=\" font-size:22pt; font-weight:600; color:#ffffff;\">Please place your finger on the sensor to continue</span></p></body></html>", None))
         self.toolBar.setWindowTitle(_translate("WelcomeWindow", "toolBar", None))
 
