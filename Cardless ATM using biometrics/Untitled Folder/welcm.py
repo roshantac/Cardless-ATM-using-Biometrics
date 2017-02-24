@@ -7,14 +7,16 @@ class Main(QtGui.QMainWindow):
         super(Main, self).__init__()
 
         # build ui
-        self.ui1 = Ui_WelcomeWindow()
-        self.ui1.show()
-	
+        self.ui = Ui_WelcomeWindow()
+        self.ui.setupUi(self)
+
+     
+
   
+
 
 if __name__ == '__main__':
     app = QtGui.QApplication(sys.argv)
     main = Main()
     main.show()
-    main.hide()	
     sys.exit(app.exec_())
